@@ -12,7 +12,7 @@ public class SpringHelloDockerWorldApplication {
 	@RequestMapping("/")
 	public String Home() {
 		
-		return " Hello Docker World";
+		return " Hello Docker World!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringHelloDockerWorldApplication.class, args);
